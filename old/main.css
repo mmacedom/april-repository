@@ -1,0 +1,122 @@
+﻿*, *:before, *:after {
+box-sizing: border-box;
+}
+
+body {
+	background-color: ##ffffff;
+	font-family: 'Raleway', sans-serif;
+}
+
+section {
+	background-color: #ffffff;
+}
+
+
+.nav {
+	max-width: 90%;
+	margin: auto;
+	display: block;	
+	overflow: hidden;
+
+}
+
+.logo {
+	min-width: 20%;
+	vertical-align: middle; 
+	padding: 20px;
+	padding-left: 35px; 
+	float: left;
+	font-weight: bold;
+	font-size: 0.9em;
+	color: rgb( 100, 100, 100);
+}
+
+.navigation {
+	min-width: 80%;
+	padding: 20px; 
+	vertical-align: middle; 
+	text-align: right;
+	float: left;
+	font-size: 0.9em;
+}
+
+a {
+	text-decoration: none;
+	color: rgb( 100, 100, 100);
+}
+
+li {
+	display: inline;
+	padding: 30px;
+	height: 100%;
+
+}
+
+
+.mainimage {
+	background-color: #ffffff;
+	border-bottom: 8px solid rgb(100, 100, 100);
+}
+
+
+main section img {
+	width: 100%;
+	margin: auto;
+	display: block;
+
+	
+}
+
+
+.main_nav {
+	max-width: 90%;
+	margin: auto;
+	margin-bottom: 30px;
+	
+}
+
+.main_logo {
+	padding: 30px 30px 30px 30px;
+	text-align: center;
+	
+}
+
+.underlined {
+	font-size: 1.25em;
+	font-weight: bold;
+	color: rgb( 100, 100, 100);
+	border-width: 5px;
+}
+
+.articlesection {
+	width: 80%;
+	overflow: hidden;
+	margin: auto;
+	text-align: center;
+}
+
+.article1 {
+	width: 33.333%;
+	float: left;
+	padding: 30px;
+	border: 2px solid rgb(100, 100, 100);
+
+	
+}
+
+.article2 {
+	width: 33.333%;
+	float: left;
+	padding: 30px;
+	border: 2px solid rgb(100, 100, 100);
+
+}
+
+.article3 {
+	width: 33.333%;
+	float: left;
+	padding: 30px;
+	border: 2px solid rgb(100, 100, 100);
+
+}
+

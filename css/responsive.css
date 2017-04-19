@@ -1,0 +1,134 @@
+﻿@media (min-width: 627px) {
+	.header {
+		padding: 2.5rem 3.5rem 1rem 3.5rem;
+	}
+
+	.image1 {
+		display: none;
+	}
+
+	.image2 {
+		display: block;
+	}
+
+	.logo {
+		text-align: left;
+		font-size: 1.8rem;
+	}
+
+	li {
+	display: inline-block;;
+	padding: 0.5rem 1.5rem 0.75rem 0rem;
+	font-weight: extra-light;
+	font-size: 1rem;
+	}
+
+	.articlesection, .motto {
+		/*padding: 3rem 3.5rem 3rem 3.5rem;*/
+		overflow: hidden;
+	}
+
+	.article1 {
+		padding: 0em 1em 2em 2em;
+	}
+
+	.footerbox {
+		color: white;
+		font-size: .6rem;
+		padding: 1rem 3.5rem 1rem 3.5rem
+
+	}
+
+	.main_nav {
+		overflow: hidden;
+		padding-left: 1.8em;
+	}
+
+	.mm {
+		margin: auto;
+		max-height: 30rem;
+		display: block;
+		text-align: center;
+	}
+
+	.motto {
+		text-align: left;
+		font-size: 1.15em;
+		padding-top: 3em;
+	}
+
+	.underlined {
+		font-size: 1.6em;
+		line-height: normal;
+		text-align: left;
+	}
+
+	.underlined_small {
+		text-align: left;
+		line-height: 1.5em;
+
+	}
+
+	.tech {
+		font-size: 1.8em;
+	}
+
+	.articlesection article p {
+		font-size: 1.1rem;
+	}
+
+	.portfolio {
+		overflow: hidden;
+	}
+
+	.portfolio1 {
+		width: 50%;
+		float: left;
+	}
+
+	.portfoliodetail {
+		width: 100%;
+		padding-right: 2rem;
+	}
+
+	.porth1 {
+		padding-top: 1.5rem;
+		font-size: 1.5rem;
+	}
+
+/*	.articlesection {
+		margin: auto;
+		text-align: left;
+		margin-top: 1.5rem;
+	}
+
+	.article1 {
+		padding-left: 1.8em;
+	} */
+
+
+.divider {
+	width: 90%;
+}
+
+.headline {
+	font-size: 3rem;
+}
+
+
+}
+
+
+@media (max-width: 627px) {
+	.image1 {
+		display: block;
+	}
+
+	.image2 {
+		display: none;
+	}
+
+	.mm {
+		display: none;
+	}
+}

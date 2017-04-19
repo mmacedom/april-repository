@@ -1,0 +1,183 @@
+﻿*, *:before, *:after {
+box-sizing: border-box;
+}
+
+body {
+	background-color: ##ffffff;
+	font-family: 'Raleway', sans-serif;
+}
+
+.header {
+	padding: 2.5rem 2rem 2.5rem 2rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: white;
+	width: 100%;
+	-webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+
+/*---- Nav ----*/
+.logo {
+	font-family: 'Nothing You Could Do', cursive;
+	font-weight: bold;
+	font-size: 1.9rem;
+	color: #3d3d3d;
+	text-align: center;
+	letter-spacing: -0.0125rem;
+}
+
+navigation ul {
+	display: block;
+}
+
+li {
+	font-size: 1.1rem;
+	text-align: center;
+	padding: 1rem 0rem 0rem 0rem;
+
+}
+
+ a {
+	text-decoration: none;
+	color: #3d3d3d;
+}
+
+a:hover {
+	color: #88ce98
+
+}
+
+
+/*---- Main ----*/
+
+main {
+	margin-top: 15rem;
+}
+
+.mainimage {
+	width: 100%;
+	height: 31rem;
+	/*background-color: rgba(89, 247, 214, 0.79);*/
+	background-image: url('http://eskipaper.com/images/light-blue-backgrounds-1.jpg');
+	color: white;
+	text-align: center;
+	padding: 5rem 3.5rem 5rem 3.5rem;
+	font-size: 2.4rem;
+	margin: auto;
+	vertical-align: middle;
+	line-height: 3rem;
+}
+
+.motto, .footerbox {
+	padding: 2.5rem 2rem 0rem 2rem;
+}
+
+.motto {
+	font-size: 1em;
+	color: #3d3d3d;
+	line-height: 1.5rem;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.underlined {
+	font-size: 1.55rem;
+}
+
+.underlined_small{
+	margin: 1rem 0rem 1rem 0rem;
+}
+
+.main_nav {
+	padding: 0em 1em 0em 1em;
+}
+
+.divider {
+	width: 85%;
+}
+.articlesection {
+	text-align: left;
+	margin-bottom: 0em;
+
+}
+
+.articlesection ul li {
+	text-align: left;
+	font-size: 1em;
+}
+
+.article1 {
+	margin-bottom: 1rem;
+	line-height: 1.25rem;
+	padding: 0em 1em 2em 1em;
+
+}
+
+div article h1 {
+	font-size: 1.4rem;
+	padding: 0.5rem 0rem;
+	font-weight: bold;
+	color: #1e1e1e;
+}
+
+.headline {
+	padding: 2.5rem 0rem 3rem 0rem;
+	font-size: 2.5rem;
+}
+
+.articlesection article p {
+	font-size: 1em;
+	line-height: 1.5rem;
+}
+
+.tech {
+	padding-bottom: 1rem;
+	font-size: 1.55rem;
+}
+
+div article p:last-child {
+	padding-bottom: 0.5rem;
+}
+
+.mainimage2 {
+	margin-top: 3.5rem;
+}
+
+/*portfolio*/
+.caption {
+	margin: 1rem 0rem 4rem 0rem;
+	text-align: left;
+}
+ /*portfolio */
+
+ .portimg {
+	 width: 100%;
+	 height: auto;
+ }
+
+ .porth1 {
+	 padding-top: 1.5rem;
+	 font-size: 1.5rem;
+ }
+
+
+
+
+/*-----footer ------*/
+
+.footer {
+	width: 100%;
+	background-color: #1e1e1e;
+}
+
+.footerbox {
+	color: white;
+	font-size: .6rem;
+	padding: 1rem 0rem 1rem 3rem
+
+}
